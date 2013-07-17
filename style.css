@@ -3,14 +3,35 @@
    ========================================================= */
 
  body, html{
-
+    font-family: 'Koz';
+    font-size: 95%;
+    line-height: 150%;
  }
+
+ @font-face{
+  font-family: 'Koz';
+  src: url('fonts/KozGoPr6N-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ @font-face{
+  font-family: 'Koz-Bold';
+  src: url('fonts/KozGoPr6N-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
 
  @font-face{
   font-family: 'Qlassik';
   src: url('fonts/QlassikBold_TB.otf');
   font-weight: normal;
   font-style: normal;
+}
+
+.emphasis{
+  font-family: 'Koz-Bold';
+  font-style: bold;
 }
 
  /* =========================================================
@@ -87,15 +108,40 @@ a:visited{
 }
 
  /* =========================================================
-    Main Content
+    All Pages
     ========================================================= */
 
 .container {
-  width: 75%;
+  width: 70%;
   height: 500px;
   background-color: #EDEDED;
   margin: 0 auto;
   float: none;
+  padding: 2%;
+}
+
+.text{
+  width: 35%;
+  float: left;
+  padding-left: 1%;
+}
+
+.text p{
+  margin-top: -0.25%;
+}
+
+.image{
+  width: 60%;
+  float: left;
+  padding-right: 3%;
+}
+
+/* =========================================================
+    About Page
+    ========================================================= */
+
+#photo{
+  width: 100%;
 }
 
 
