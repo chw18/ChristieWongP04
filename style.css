@@ -234,6 +234,33 @@ a:visited{
 }
 
 /* =========================================================
+    Contact Page
+    ========================================================= */
+
+.brief{
+  margin-top: 0%;
+  padding-bottom: 2%;
+}
+
+.othercontact{
+  float: left;
+  width: 30%;
+}
+
+.emailform{
+  float: right;
+  background-color: #FFFDF7;
+  width: 60%;
+  text-align: center;
+  padding: 2% 0;
+  border:2px solid #FAECCF;
+  color: #A87811;
+  font-family: 'Koz-Bold';
+}
+
+
+
+/* =========================================================
     Footer
     ========================================================= */
 
