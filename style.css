@@ -208,6 +208,11 @@ a:visited{
   color: #C20E0E;
 }
 
+.smallicon{
+  padding-right: 1%;
+  width: 10%;
+}
+
 /* =========================================================
     Project Details Page
     ========================================================= */
@@ -233,6 +238,12 @@ a:visited{
   float: left;
 }
 
+.smallicon1{
+  width: 2.5em;
+  padding: 3%;
+  vertical-align: middle;
+}
+
 /* =========================================================
     Contact Page
     ========================================================= */
@@ -247,6 +258,10 @@ a:visited{
   width: 30%;
 }
 
+.othercontact li{
+  vertical-align: middle;
+}
+
 .emailform{
   float: right;
   background-color: #FFFDF7;
@@ -256,6 +271,11 @@ a:visited{
   border:2px solid #FAECCF;
   color: #A87811;
   font-family: 'Koz-Bold';
+}
+
+.contactlogos{
+  list-style-type: none;
+  text-indent: -3.5em;
 }
 
 
