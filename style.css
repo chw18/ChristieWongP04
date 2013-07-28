@@ -261,6 +261,7 @@ a:visited{
 .stepone{
   width: 70%;
   margin: 0 auto;
+  clear: both;
 }
 
 .stepone img{
@@ -275,6 +276,7 @@ a:visited{
 .right{
   float: left;
   width: 60%;
+  text-align: left;
 }
 
 
@@ -291,6 +293,7 @@ a:visited{
 .othercontact{
   float: left;
   width: 30%;
+  padding-left: 7%;
 }
 
 .othercontact li{
@@ -298,7 +301,7 @@ a:visited{
 }
 
 .emailform{
-  float: right;
+  float: left;
   background-color: #FFFDF7;
   width: 60%;
   text-align: center;
@@ -327,6 +330,13 @@ a:visited{
 footer{
 	float: left;
   width: 100%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
+  border-top:1px solid #FAECCF;
+  border-bottom: 1px solid #FAECCF;
+  border-width: 2px 0;
+  background-color: #FFFDF7;
+  font-family: 'Qlassik';
+  font-size: 1.25em;
+  color: #A87811;
 }
