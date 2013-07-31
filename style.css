@@ -6,12 +6,14 @@
     font-family: 'Koz';
     font-size: 90%;
     line-height: 150%;
+    color: black;
  }
 
-/* body{
+ body{
     background-image: url('images/home.png');
     width: 100%;
- }*/
+    background-repeat: repeat-y;
+ }
 
  @font-face{
   font-family: 'Koz';
@@ -74,15 +76,18 @@ h1{
   padding: 20px 50px;
   font-family: 'Qlassik';
   font-size: 1.3em;
-  color: #A87811; /*//#CC951F;*/
+
+  color: #B0B0B0;
+  /*color: #A87811; //#CC951F;*/
 }
 
 .menu a:hover{
-  color: #FCC03D;
+  color: #FAE3AF;
 }
 
 .onpage a{
-  color: #FCC03D;
+  color: white;
+  /*FADCA7;*/
 }
 
 #myLogo{
@@ -95,9 +100,11 @@ h1{
 }
 
 .otherpages{
-  border:1px solid #FAECCF;
-  background-color: #FFFDF7;
-  border-width: 2px 0;
+  border: 1px solid #FAECCF;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  /*#FFFDF7;*/
+  border-width: 0px 0;
   float: right;
   width: 70%;
   margin-top: 50px;
@@ -123,13 +130,13 @@ a:visited{
 
 .interaction{
   color: black;
-  border-bottom: 1px solid #A87811; /*C20E0E*/
+  border-bottom: 1px solid #940F0F; /*C20E0E*/
   padding-bottom: 2px;
   /*font-family: 'Koz-Bold';*/
 }
 
 .interaction:hover{
-  color: #C20E0E;
+  color: #AD1D1D;
   /*border-bottom: 1px solid #FCC03D;*/
 }
 
@@ -139,7 +146,8 @@ a:visited{
 
 .container {
   width: 70%;
-  background-color: #DEDEDE;
+  /*background-color: #DEDEDE;*/
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   float: none;
   padding: 2%;
@@ -346,11 +354,11 @@ footer{
   width: 100%;
   margin: 2% auto;
   text-align: center;
-  border-top:1px solid #FAECCF;
-  border-bottom: 1px solid #FAECCF;
-  border-width: 2px 0;
-  background-color: #FFFDF7;
+/*  background-color: #FFFDF7;
+  color: #A87811;*/
   font-family: 'Qlassik';
   font-size: 1.25em;
-  color: #A87811;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
 }
