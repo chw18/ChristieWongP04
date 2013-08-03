@@ -9,6 +9,7 @@
 	<head>
 		<title>Christie Wong</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="normalize.css" />
 	</head>
 
 	<body>
@@ -17,7 +18,7 @@
 			<nav><!-- Nav Bar -->
 				<ul class="menu">
 					<div class="logopart">
-						<li><a href="index.html"><img id="myLogo" src="images/logo.png" alt="Christie Wong Logo" /></a></li>		<!-- My logo -->
+						<li><a href="index.html"><img id="myLogo" src="images/whitelogo.png" alt="Christie Wong Logo" /></a></li>		<!-- My logo -->
 					</div>
 
 					<div class="otherpages">
@@ -39,16 +40,16 @@
 
 			<div class="emailform">
 				<p></p>
-				<form action="MAILTO:clesigner39@gmail.com" method="post" enctype="text/plain">
+				<form id="emailmessage" action="MAILTO:clesigner39@gmail.com" method="post" enctype="text/plain">
 					Name:<br>
-					<input type="text" name="name" placeholder="James Bond" size="50" required autofocus /><br>
+					<input type="text" name="name" placeholder="James Bond" class="styled" required autofocus /><br><br>
 					E-mail:<br>
-					<input type="text" name="mail" placeholder="007@gmail.com" size="50" required /><br>
+					<input type="text" name="mail" placeholder="007@gmail.com" class="styled" required /><br><br>
 					Comment:<br>
-					<textarea type="text" name="comment" placeholder="Confidential. This message will self-destruct in 10 seconds." rows="10" cols="50" required ></textarea>
+					<textarea type="text" name="comment" placeholder="Confidential. This message will self-destruct in 10 seconds." class="styled" required ></textarea>
 					<br>
-					<input type="submit" value="Send">
-					<input type="reset" value="Reset">
+					<input type="submit" value="Send" class="formbutton">
+					<input type="reset" value="Reset" class="formbutton">
 				</form>
 			</div>
 

@@ -83,11 +83,11 @@ h1{
 }
 
 .menu a:hover{
-  color: #FAE3AF;
+  color: white;
 }
 
 .onpage a{
-  color: white;
+  color: #FAE3AF;
   /*FADCA7;*/
 }
 
@@ -101,7 +101,7 @@ h1{
 }
 
 .otherpages{
-  border: 1px solid #FAECCF;
+  border: 1px solid #7A7A7A;
   background-color: rgba(0, 0, 0, 0.4);
 
   /*#FFFDF7;*/
@@ -343,6 +343,35 @@ a:visited{
   width: 2.5em;
   padding: 3%;
   vertical-align: middle;
+}
+
+.styled{
+  width: 70%;
+  font-size: 0.95em;
+  font-family: 'Koz-Bold';
+  padding: 3px;
+}
+
+.formbutton{
+  margin-top: 1.5em;
+}
+
+/* =========================================================
+    Process
+    ========================================================= */
+
+.processicons{
+  width: 70%;
+}
+
+.row{
+  width: 100%;
+  clear: both;
+}
+
+.single{
+  width: 30%;
+  float: left;
 }
 
 
