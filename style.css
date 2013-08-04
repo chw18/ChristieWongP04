@@ -360,18 +360,33 @@ a:visited{
     Process
     ========================================================= */
 
+.intro{
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 3em;
+}
+
 .processicons{
   width: 70%;
 }
 
 .row{
-  width: 100%;
-  clear: both;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 .single{
-  width: 30%;
-  float: left;
+  width: 25%;
+  height: auto;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  padding: 0 1.5em;
+}
+
+.single p{
+  text-align: center;
 }
 
 
