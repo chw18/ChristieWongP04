@@ -68,18 +68,21 @@ h1{
 
 .menu li{
 	list-style-type: none;
-  display: inline;
+  display: inline-block;
   vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 3%;
+  margin-right: 0%;
+  margin-left: 12%;
+  width: 35%;
 }
 
 .menu a{
   display: inline-block;
-  padding: 20px 50px;
+  padding: 10px 0px;
   font-family: 'Qlassik';
   font-size: 1.3em;
-
   color: #B0B0B0;
-  /*color: #A87811; //#CC951F;*/
 }
 
 .menu a:hover{
@@ -88,27 +91,28 @@ h1{
 
 .onpage a{
   color: #FAE3AF;
-  /*FADCA7;*/
 }
 
 #myLogo{
-	width: 200px;
+	width: 175px;
 }
 
 .logopart{
   float: right;
-  width: 30%;
+  width: 40%;
+}
+
+#logoitem{
+  background-color: transparent;
+  margin-left: 0;
+  padding-right: 15%;
 }
 
 .otherpages{
-  border: 1px solid #7A7A7A;
-  background-color: rgba(0, 0, 0, 0.4);
-
-  /*#FFFDF7;*/
-  border-width: 0px 0;
   float: right;
-  width: 70%;
-  margin-top: 50px;
+  width: 60%;
+  margin-top: 20px;
+  background-color: transparent;
 }
 
  /* =========================================================
@@ -146,8 +150,7 @@ a:visited{
     ========================================================= */
 
 .container {
-  width: 70%;
-  /*background-color: #DEDEDE;*/
+  width: 95%;
   background-color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   float: none;

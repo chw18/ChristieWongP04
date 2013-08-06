@@ -10,6 +10,7 @@
 		<title>Christie Wong</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<link rel="stylesheet" type="text/css" href="normalize.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 850px), only screen and (max-device-width: 850px)" href="tablet.css" />
 
 		<link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
@@ -25,7 +26,8 @@
 				<ul class="menu">
 
 					<div class="logopart">
-						<li><a href="index.html"><img id="myLogo" src="images/whitelogo.png" alt="Christie Wong Logo" /></a></li>		<!-- My logo -->
+						<li id="logoitem"><a href="index.html"><img id="myLogo" src="images/whitelogo.png" alt="Christie Wong Logo" /></a></li>	
+						<!-- My logo -->
 					</div>
 
 					<div class="otherpages">
@@ -41,19 +43,25 @@
 		</header>
 
 		<div class="container">
-				<h1>User-oriented Application</h1><p>navigating within Granville Island</p>
-				<div class="media">
-					<video width="600" height="440" poster="images/project2.png" controls="controls" preload="none">
-						<source type="video/mp4" src="granville.mp4"/>
-						<source type="video/webm" src="granville.webm"/>
-						<source type="video/ogg" src="granville.ogv"/>
-					</video>
+				<div class="projheader">
+					<h1>User-oriented Application</h1><p>navigating within Granville Island</p>
 				</div>
 
 				<div class="nextproj">
 					<p><a href="projectone.html">BlackBerry 10 Longitudinal Study</a></p>
 				</div><!-- end nextproj -->	
-				
+
+				<div class="media">
+					<video poster="images/granvillethumbnail.png" controls="controls" preload="none">
+						<source type="video/mp4" src="granville.mp4"/>
+						<source type="video/webm" src="granville.webm"/>
+						<source type="video/ogg" src="granville.ogv"/>
+					</video>
+
+					<hr>
+
+				</div>
+
 				<div class="projcontext">
 					<p>Role <br><span class="emphasis">Graphic Designer, Animator &#38; Programmer</span></p>
 					<p>Client <br><a href="http://www.sfu.ca/" class="interaction" target="_blank">Simon Fraser University</a></p>
