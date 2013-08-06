@@ -45,13 +45,6 @@ h1{
   font-family: 'Qlassik';
 }
 
-/*
-  -moz-transition: opacity 0.5s;
-  -webkit-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-  */
-
  /* =========================================================
     Navigation Bar
     ========================================================= */
@@ -71,9 +64,10 @@ h1{
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: 7%;
+  margin-left: 12%;
   margin-right: 0%;
-  margin-left: 0%;
   width: 60%;
+  float: left;
 }
 
 .menu a{
@@ -97,8 +91,10 @@ h1{
 }
 
 .logopart{
-  float: left;
-  width: 100%;
+  float: none;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5%;
 }
 
 #logoitem{
@@ -110,9 +106,9 @@ h1{
 }
 
 .otherpages{
-  float: left;
+  float: none;
+  margin: 0 auto;
   width: 100%;
-  margin-top: -2em;
   background-color: transparent;
 }
 
@@ -154,6 +150,7 @@ a:visited{
   width: 95%;
   margin: 0 auto;
   margin-top: 10%;
+  margin-bottom: 1em;
   float: none;
   padding: 2%;
   position: relative;
