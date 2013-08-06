@@ -345,7 +345,7 @@ a:visited{
 }
 
 .stepone img{
-  width: 75%;
+  width: 90%;
 }
 
 .left{
@@ -370,7 +370,7 @@ a:visited{
 }
 
 /* =========================================================
-    Contact Page
+    Contact Page & Success Page
     ========================================================= */
 
 .brief{
@@ -382,10 +382,15 @@ a:visited{
   float: left;
   width: 100%;
   padding-left: 7%;
+  margin-bottom: 5em;
 }
 
 .othercontact li{
   vertical-align: middle;
+  width: 100%;
+  float: left;
+  display: inline;
+  padding: 0 2em;
 }
 
 .emailform{
@@ -397,6 +402,18 @@ a:visited{
   border:2px solid #FAECCF;
   color: #A87811;
   font-family: 'Koz-Bold';
+}
+
+.success{
+  float: left;
+  background-color: #FFFDF7;
+  width: 95%;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 1em;
+  border:2px solid #FAECCF;
+  color: black;
+  font-family: 'Koz';
 }
 
 .contactlogos{
@@ -435,7 +452,7 @@ a:visited{
 }
 
 .processicons{
-  width: 70%;
+  width: 85%;
 }
 
 .row{
