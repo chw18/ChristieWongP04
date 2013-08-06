@@ -4,7 +4,7 @@
 
  body, html{
     font-family: 'Koz';
-    font-size: 105%;
+    font-size: 1.25em;
     line-height: 175%;
     color: black;
  }
@@ -226,7 +226,7 @@ a:visited{
 }
 
 .thumbnail{
-  background-color: #FFD382;
+  background-color: transparent;
 }
 
 .thumbnail:hover img{
@@ -292,6 +292,18 @@ a:visited{
   width: 30%;
   float: right;
   text-align: right;
+  background-color: transparent;
+  
+}
+
+.nextproj a{
+  color: #B0B0B0;
+  font-family: 'Qlassik';
+  display: block;
+}
+
+.nextproj a:hover{
+  color: white;
 }
 
 .projcontext{
